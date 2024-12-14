@@ -3,10 +3,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 
 import { Route,createBrowserRouter,createRoutesFromElements,BrowserRouter,Routes,RouterProvider} from 'react-router-dom'
-import csec1 from './Component 1/csec1.jsx'
-import csec2 from './Component 2/csec2.jsx'
-import csec3 from './Component 3/csec3.jsx'
-import csec4 from './Component 4/csec4.jsx'
+import Csec1 from './Component 1/Csec1.jsx'
+import Csec2 from './Component 2/Csec2.jsx'
+import Csec3 from './Component 3/Csec3.jsx'
+import Csec4 from './Component 4/Csec4.jsx'
 import Navbar from './Navbar.jsx'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
@@ -15,10 +15,10 @@ import ReactDOM from 'react-dom/client'
 const router =createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Navbar/>}>
-      <Route path='/api1' element={<csec1 />} />
-      <Route path='/api2' element={<csec2 />} />
-      <Route path='/api3' element={<csec3 />} />
-      <Route path='/api4' element={<csec4 />} />
+      <Route path='/api1' element={<Csec1 />} />
+      <Route path='/api2' element={<Csec2 />} />
+      <Route path='/api3' element={<Csec3 />} />
+      <Route path='/api4' element={<Csec4 />} />
     </Route>
   )
 )

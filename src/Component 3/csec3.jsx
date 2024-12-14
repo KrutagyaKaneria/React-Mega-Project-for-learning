@@ -1,8 +1,9 @@
 
 
-export default function csec3 (){
+export default function Csec3 (){
     return(
         <>
+        <h1>is</h1>
         </>
     )
 }

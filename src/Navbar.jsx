@@ -5,7 +5,7 @@ export default function Navbar(){
 
     return(
         <>
-       <nav className="bg-blue-800 text-white">
+       <nav className="bg-blue-400 text-white">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <ul className="flex space-x-4">
             <li>
@@ -13,7 +13,7 @@ export default function Navbar(){
                 to="/"
                 className={({ isActive }) =>
                   `px-4 py-2 rounded-md ${
-                    isActive ? "bg-gray-700 text-white" : "hover:bg-gray-700"
+                    isActive ? "bg-blue-500 text-white" : "hover:bg-blue-800"
                   }`
                 }
               >
@@ -25,7 +25,7 @@ export default function Navbar(){
                 to="/api1"
                 className={({ isActive }) =>
                   `px-4 py-2 rounded-md ${
-                    isActive ? "bg-gray-700 text-white" : "hover:bg-gray-700"
+                    isActive ? "bg-blue-500 text-white" : "hover:bg-blue-800"
                   }`
                 }
               >
@@ -37,7 +37,7 @@ export default function Navbar(){
                 to="/api2"
                 className={({ isActive }) =>
                   `px-4 py-2 rounded-md ${
-                    isActive ? "bg-gray-700 text-white" : "hover:bg-gray-700"
+                    isActive ? "bg-blue-500 text-white" : "hover:bg-blue-800"
                   }`
                 }
               >
@@ -49,7 +49,7 @@ export default function Navbar(){
                 to="/api3"
                 className={({ isActive }) =>
                   `px-4 py-2 rounded-md ${
-                    isActive ? "bg-gray-700 text-white" : "hover:bg-gray-700"
+                    isActive ? "bg-blue-500 text-white" : "hover:bg-blue-800"
                   }`
                 }
               >
@@ -61,7 +61,7 @@ export default function Navbar(){
                 to="/api4"
                 className={({ isActive }) =>
                   `px-4 py-2 rounded-md ${
-                    isActive ? "bg-gray-700 text-white" : "hover:bg-gray-700"
+                    isActive ? "bg-blue-500 text-white" : "hover:bg-blue-800"
                   }`
                 }
               >
