@@ -10,18 +10,22 @@ import Csec4 from './Component 4/Csec4.jsx'
 import Navbar from './Navbar.jsx'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import Recipe from './Component 1/Recipe.jsx'
 
 
 const router =createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Navbar/>}>
-      <Route path='/api1' element={<Csec1 />} />
+      <Route path='/api1' element={<Csec1 />}/>
+      <Route path='/api1/recipe' element={<Recipe/>}/>
       <Route path='/api2' element={<Csec2 />} />
       <Route path='/api3' element={<Csec3 />} />
       <Route path='/api4' element={<Csec4 />} />
     </Route>
   )
 )
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

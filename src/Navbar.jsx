@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink,Outlet} from "react-router-dom";
 import './index.css'
+import AboutUs from "./Aboutus/aboutus";
 export default function Navbar(){
 
     return(
