@@ -1,13 +1,13 @@
 import './index.css'
 import { Route,createBrowserRouter,createRoutesFromElements,BrowserRouter,Routes,RouterProvider} from 'react-router-dom'
-import Csec1 from './Component 1/Csec1.jsx'
-import Csec2 from './Component 2/Csec2.jsx'
-import Csec3 from './Component 3/Csec3.jsx'
-import Csec4 from './Component 4/Csec4.jsx'
+import Csec1 from './Component_1/Csec1.jsx'
+import Csec2 from './Component_2/Csec2.jsx'
+import Csec3 from './Component_3/Csec3.jsx'
+import Csec4 from './Component_4/Csec4.jsx'
 import Navbar from './Navbar.jsx'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Recipe from './Component 1/Recipe.jsx'
+import Recipe from './Component_1/Recipe.jsx'
 
 
 const router =createBrowserRouter(
