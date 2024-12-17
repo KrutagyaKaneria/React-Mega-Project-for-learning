@@ -1,7 +1,4 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
 import './index.css'
-
 import { Route,createBrowserRouter,createRoutesFromElements,BrowserRouter,Routes,RouterProvider} from 'react-router-dom'
 import Csec1 from './Component 1/Csec1.jsx'
 import Csec2 from './Component 2/Csec2.jsx'
