@@ -8,6 +8,7 @@ import Navbar from './Navbar.jsx'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Recipe from './Component_1/Recipe.jsx'
+import Csec5 from './Component_5/Csec5.jsx'
 
 
 const router =createBrowserRouter(
@@ -17,7 +18,7 @@ const router =createBrowserRouter(
       <Route path='/api1/recipe' element={<Recipe/>}/>
       <Route path='/api2' element={<Csec2 />} />
       <Route path='/api3' element={<Csec3 />} />
-      <Route path='/api4' element={<Csec4 />} />
+      <Route path='/api4' element={<Csec5/>} />
     </Route>
   )
 )

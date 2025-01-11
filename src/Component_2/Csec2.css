@@ -1,0 +1,106 @@
+/* Cocktailcard Component Styles */
+
+/* Overall drink section styling */
+.drink {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+/* Individual drink card */
+.DrinkImg {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.DrinkImg:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Drink image */
+.DrinkImg img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+/* Drink name */
+.drink-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+/* Drink type */
+.drink-type {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Button */
+.meal-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.meal-btn:hover {
+    background-color: #e55b4d;
+}
+
+/* Link styles */
+.DrinkImg a {
+    text-decoration: none;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .drink {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .DrinkImg img {
+        height: 180px;
+    }
+
+    .meal-btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
+
+/* Add this to your CSS file */
+
+.cocktail-image {
+    max-width: 300px; /* Limit image width */
+    height: auto;     /* Maintain aspect ratio */
+    margin: 10px auto; /* Center the image */
+    display: block;   /* Ensure proper alignment */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    object-fit: cover; /* Crop the image neatly if needed */
+  }
+  
+/* Add spacing if buttons are too close */
+.searchBar button:nth-child(2) {
+    margin-left: 10px; /* Add space between Search and Random */
+}
